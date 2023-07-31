@@ -1,2 +1,2 @@
 # containers-orchestrators
-Space for Containers, Runtimes &amp; Orchestrators
+Space for Containers, Runtimes & Orchestrators
