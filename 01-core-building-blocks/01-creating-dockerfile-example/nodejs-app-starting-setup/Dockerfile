@@ -37,7 +37,10 @@ CMD ["node", "server.js"]
 # So all of the above, has not yet created the images.
 # These are just the intructions to create the image, if we ask to build it.
 # Once this file is created, we need to run the `docker build <location of the dockerfile>`.
+# This wil create the image on the host running the docker build command.
+# We can view these images with `docker images` command.
 # To run this container, we will use the `docker run <image-name or image-id>`
+# To see the list of running containers we run `docker ps` command.
 
 # Post running this docker image, it will not automatically make the http server available/accessible on the local host.
 # We need to bind the port 80 of container to a port on the local host running the container.
